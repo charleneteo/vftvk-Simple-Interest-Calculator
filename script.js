@@ -4,7 +4,10 @@ function showCalculations() {
 	let amount=parseInt(document.getElementById("amount").value);
   let interest_rate=parseInt(document.getElementById("interest_rate").value);
   let years=parseInt(document.getElementById("years").value);
-
+	if(amount<0){
+        document.getElementById("output").innerHTML="Enter a positive number";
+		return;
+    }
 	document.getElementById("output").innerHTML = "If you deposit "+ amount+"<br>"+
   "at an interest rate of "+ interest_rate + "% <br> You wil receive an amount of "+ (calculations(amount,interest_rate,years))+
  
