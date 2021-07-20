@@ -1,4 +1,70 @@
-body {background-color:tan;}
-h1{color:green;}
+ body{
+  background-color: #FFFFF;
+   border-radius: 25px;
+  margin: 0px;
+  padding: 0;
+  border: 8px solid black;
+    font-family: Verdana;
+}
+
+html{
+  background-color: #000000;
+}
+
+
+ #scroll_bar, #output, #computeInterest{
+  margin-left: 35px;
+}
+
+#amountLabel, #yearsLabel{
+    margin-left: 35px;
+}
+
+#amount{
+  margin-left: 120px;
+ 
+}
+ #interest_rate{
+  margin-left: 80px;
+ 
+}
+ #years{
+  margin-left: 90px;
+ 
+}
+h1{
+  color: grey;
+  font-family: Verdana;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background: #00BFFF;
+    margin-top: -4px;
+}
+
+
+
+input[type=range]::-ms-fill-lower {
+  background: #00BFFF;
+  border-radius: 10px;
+}
 
 
